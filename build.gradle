@@ -1,9 +1,9 @@
 allprojects {
     group = 'org.hidetake'
-    version = System.getenv('CIRCLE_TAG') ?: 'SNAPSHOT'
+    version = System.getenv('CIRCLE_TAG') ?: '2.10.2'
 
     repositories {
-        jcenter()
+        mavenCentral()
     }
 
     afterEvaluate {

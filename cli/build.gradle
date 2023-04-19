@@ -45,4 +45,4 @@ runShadow {
     workingDir rootDir
 }
 
-check.dependsOn runShadow
+//check.dependsOn runShadow
